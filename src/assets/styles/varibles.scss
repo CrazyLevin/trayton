@@ -1,0 +1,414 @@
+$contentFontSize: 14px;
+$contentFontSize12: 12px;
+$BigSwiperFontSize: 6.2rem;
+$homeSwiperH3: 3rem;
+$homeSwiperH4: 2rem;
+$swiperRead: 1.8rem;
+$titleFontsSize: 4.8rem;
+$titleCnFontsSize: 2rem;
+$titleFontSize38: 3.8rem;
+$titleFontSize36: 3.6rem;
+$titleFontsSize24: 2.4rem;
+$titleFontsSize20: 2rem;
+$titleCnFontSize18: 1.8rem;
+$headerHeight: .86rem;
+$borderColor: #c8c8c8;
+$BrownColor: #bca890;
+$orangeColor: #ff881f;
+$greyColor: #1a1a1a;
+$greyBgColor: #f4f3ee;
+$f4: #f4f4f4;
+$e2: #e2e2e2;
+$designColor: #cf542e;
+$lineHeight: 30px;
+$headerLogoWidth: 10%;
+$fontSize1440: .75;
+$fontSize1024: .53;
+$fontSize750: .39;
+$fontSize414: .21;
+
+.swiper-content {
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    color: #fff;
+}
+.banner {
+    position: relative;
+    height: 359px;
+    color: #fff;
+}
+.banner-title {
+    position: relative;
+    font-size: $titleFontsSize;
+}
+.banner-title-cn {
+    margin-top: .5rem;
+    font-size: $titleCnFontsSize;
+    font-weight: bold;
+    letter-spacing: .5rem;
+}
+.line {
+    width: 50px;
+}
+.title {
+    font-size: $titleFontsSize;
+}
+.title-cn {
+    font-size: $titleCnFontsSize;
+}
+.inner-title {
+    font-size: $titleFontSize38;
+}
+.inner-title-cn {
+    font-size: $titleCnFontsSize;
+}
+.title-cn-sm {
+    font-size: $titleCnFontsSize;
+}
+.child-title {
+    font-size: $titleFontSize38;
+}
+.child-title-cn {
+    font-size: $titleCnFontsSize;
+    font-weight: bold;
+}
+.left-title {
+    font-size: $titleFontSize36;
+}
+.left-title-cn {
+    font-size: $titleFontSize36;
+}
+.ourQuality-p {
+    font-size: $contentFontSize;
+    line-height: $lineHeight;
+}
+.ourQuality-read {
+    font-size: $titleCnFontSize18
+}
+.sofa-read {
+    font-size: $titleCnFontSize18
+}
+.p {
+    font-size: $contentFontSize;
+    line-height: $lineHeight;
+    font-weight: 400;
+}
+.home-contact-ul li {
+    font-size: 18px;
+    font-weight: bold;
+}
+.design-title-h2 {
+    font-size: $titleFontsSize24;
+    font-weight: bold;
+}
+.design-title-h3 {
+    font-size: $titleFontsSize24;
+}
+.swiper-title {
+    font-size: $titleFontSize38;
+}
+.swiper-a {
+    font-size: $contentFontSize;
+}
+.csr-title {
+    font-size: $titleFontSize38;
+}
+.csr-title-cn {
+    margin-top: 1rem;
+    font-size: $titleCnFontSize18;
+}
+.content-1-h3 {
+    font-size: $titleCnFontsSize;
+}
+.preschools-title {
+    font-size: $titleFontsSize24;
+}
+.banner-text {
+    position: absolute;
+    top: 22rem;
+    left: 5%;
+}
+.home-logo, .header-logo, .footer-logo {
+    width: 240px;
+}
+.banner-model {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3)
+}
+.title-under, .design-p {
+    font-size: 16px;
+}
+.rice-p, .design-p, .content-1-p {
+    line-height: 24px;
+}
+.banner-mobile {
+    display: none;
+}
+.video-box {
+    position: relative;
+    width: 80%;
+}
+.close-model {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.video {
+    width: 100%;
+}
+.video-model {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+.close-video {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+}
+@media screen and (max-width: 1440px) {
+    .home-logo, .header-logo, .footer-logo {
+        width: 240px * $fontSize1440;
+    }
+    .swiper-content {
+        top: 24%;
+    }
+    .home-swiper-h2 {
+        font-size: $BigSwiperFontSize * $fontSize1440;
+    }
+    .home-swiper-h3 {
+        font-size: $homeSwiperH3 * $fontSize1440;
+    }
+    .home-swiper-h4 {
+        font-size: $homeSwiperH4 * $fontSize1440;
+    }
+    .home-swiper-read {
+        font-size: $swiperRead * $fontSize1440;
+    }
+    .banner-title {
+        font-size: $titleFontsSize * $fontSize1440;
+    }
+    .banner-title-cn {
+        font-size: $titleCnFontsSize * $fontSize1440;
+    }
+    .line {
+        bottom: 4%;
+        width: 38px;
+    }
+    .title {
+        font-size: $titleFontsSize * $fontSize1440;
+    }
+    .title-cn {
+        font-size: $titleCnFontsSize * $fontSize1440;
+    }
+    .inner-title {
+        font-size: $titleFontSize38 * $fontSize1440;
+    }
+    .inner-title-cn {
+        font-size: $titleCnFontsSize * $fontSize1440;
+    }
+    .title-cn-sm {
+        font-size: $titleCnFontsSize * $fontSize1440;
+    }
+    .child-title {
+        font-size: $titleFontSize38 * $fontSize1440;
+    }
+    .child-title-cn {
+        font-size: $titleCnFontsSize * $fontSize1440;
+    }
+    .ourQuality-p {
+        font-size: $contentFontSize12;
+    }
+    .ourQuality-read {
+        font-size: $titleCnFontSize18 * $fontSize1440;
+    }
+    .sofa-read {
+        font-size: $titleCnFontSize18 * $fontSize1440;
+    }
+    .p {
+        font-size: $contentFontSize12;
+    }
+    .home-contact-ul li {
+        font-size: 14px;
+    }
+    .design-title-h2 {
+        font-size: $titleFontsSize24 * $fontSize1440;
+    }
+    .design-title-h3 {
+        font-size: $titleFontsSize24 * $fontSize1440;
+    }
+    .left-title {
+        font-size: $titleFontSize36 * $fontSize1440;
+    }
+    .left-title-cn {
+        font-size: $titleFontSize36 * $fontSize1440;
+    }
+    .swiper-title {
+        font-size: $titleFontSize38 * $fontSize1440;
+    }
+    .swiper-a {
+        font-size: $contentFontSize12;
+    }
+    .csr-title {
+        font-size: $titleFontSize38 * $fontSize1440;
+    }
+    .csr-title-cn {
+        font-size: $titleCnFontSize18 * $fontSize1440;
+    }
+    .content-1-h3 {
+        font-size: $titleCnFontsSize ;
+    }
+    .preschools-title {
+        font-size: $titleFontsSize24  * $fontSize1440;
+    }
+    .title-under, .rice-p, .design-p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1224px) {
+    .br1224 {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .br1024 {
+        display: none;
+    }
+    .p {
+        line-height: 24px;
+    }
+    .home-swiper-h2 {
+        font-size: $BigSwiperFontSize * $fontSize1024;
+    }
+    .home-swiper-h3 {
+        font-size: $homeSwiperH3 * $fontSize1024;
+    }
+    .home-swiper-h4 {
+        font-size: $homeSwiperH4 * $fontSize1024;
+    }
+    .home-swiper-read {
+        font-size: $swiperRead * $fontSize1024;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .banner {
+        height: auto;
+    }
+    .banner-mobile {
+        display: block;
+        width: 100%;
+    }
+    .banner-text {
+        top: 63%;
+    }
+    .home-logo, .header-logo, .footer-logo {
+        width: 180px;
+    }
+    .br750 {
+        display: none;
+    }
+    .banner-title {
+        font-size: 2.2rem;
+    }
+    .banner-title-cn {
+        font-size: 1.4rem;
+    }
+    .line {
+        width: 20px;
+    }
+    .csr-title {
+        font-size: 1.6rem;
+    }
+    .csr-title-cn {
+        font-size: 1.2rem;
+    }
+    .video-box {
+        width: 100%;
+    }
+    .close-video {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .home-logo, .header-logo, .footer-logo {
+        width: 120px;
+    }
+    .home-swiper-h2 {
+        font-size: 1.6rem;
+    }
+    .home-swiper-h3 {
+        font-size: 12px;
+    }
+    .home-swiper-h4 {
+        font-size: 10px;
+    }
+    .home-swiper-read {
+        font-size: 10px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .title-cn {
+        font-size: 1.2rem;
+    }
+    .inner-title {
+        font-size: 2rem;
+    }
+    .inner-title-cn {
+        font-size: 1.2rem;
+    }
+    .content-1-h3 {
+        font-size: 1.4rem;
+    }
+    .left-title {
+        font-size: 2rem;
+    }
+    .left-title-cn {
+        font-size: 1.2rem;
+    }
+    .p {
+        font-size: 10px;
+    }
+    //.banner-title {
+    //    font-size: 1.4rem;
+    //}
+    //.banner-title-cn {
+    //    font-size: 1.2rem;
+    //}
+    .csr-title-cn {
+        margin-top: .5rem;
+    }
+    .preschools-title {
+        font-size: 1.4rem;
+    }
+    .title-cn-sm {
+        font-size: 1.2rem;
+    }
+    .child-title {
+        font-size: 2rem;
+    }
+    .child-title-cn {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+
+}

@@ -1,0 +1,13 @@
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin textJustify {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+@mixin AvantGarde {
+  font-family: "AvantGarde" !important;
+  font-style: normal;
+}
